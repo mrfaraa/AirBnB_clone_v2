@@ -9,7 +9,7 @@ Distributes an archive to my web servers, using the function do_deploy
 from fabric.api import local, put, run, env
 from datetime import datetime
 import os
-env.hosts = ['54.196.192.151', '54.34.201.161.183']
+env.hosts = ['54.196.192.151', '34.201.161.183']
 
 
 def do_pack():
